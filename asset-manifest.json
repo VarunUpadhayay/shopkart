@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shopkart/static/css/main.18140d14.css",
+    "main.js": "/shopkart/static/js/main.b5857b39.js",
+    "static/js/787.b12a91a2.chunk.js": "/shopkart/static/js/787.b12a91a2.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/shopkart/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/studio.png": "/shopkart/static/media/studio.35eca998be70cc064d2d.png",
+    "static/media/bg.png": "/shopkart/static/media/bg.23c95303694a3adba91a.png",
+    "static/media/fontawesome-webfont.eot": "/shopkart/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/shopkart/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/shopkart/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/shopkart/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/logo.svg": "/shopkart/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/shopkart/index.html",
+    "main.18140d14.css.map": "/shopkart/static/css/main.18140d14.css.map",
+    "main.b5857b39.js.map": "/shopkart/static/js/main.b5857b39.js.map",
+    "787.b12a91a2.chunk.js.map": "/shopkart/static/js/787.b12a91a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18140d14.css",
+    "static/js/main.b5857b39.js"
+  ]
+}

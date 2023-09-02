@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Syne:wght@800&display=swap");
+
+.main-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.side-text {
+  position: absolute;
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.line,
+.line2,
+.line3 {
+  font-size: 100px;
+  color: white;
+  line-height: 102.6px;
+}
+.line2 {
+  margin-bottom: 0;
+  margin-left: 65%;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+}
+
+.seeMore {
+  position: absolute;
+  z-index: 2;
+  bottom: -55px;
+  left: 10px;
+  color: white;
+  border: 1px solid white;
+  text-transform: capitalize;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  padding: 3px 3px;
+  margin-left: 50px;
+}
+
+.rotated-arrow {
+  transform: rotate(-40deg);
+  padding-left: 3px;
+}

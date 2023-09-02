@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Syne:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Syne:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Syne:wght@600&family=Work+Sans&display=swap");
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  margin-right: -20px;
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: auto;
+  padding: 50px;
+  padding-left: 0;
+}
+
+.category-list button {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  transition: all 0.7s ease;
+  text-transform: capitalize;
+  width: 250px;
+  line-height: 21.11px;
+  text-align: left;
+}
+
+.category-list button.selected {
+  font-size: 26px;
+  font-weight: 500;
+  color: black;
+}
+
+.product-container {
+  flex-grow: 1;
+  overflow: hidden;
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+
+.product-slider {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 1s ease;
+  padding-bottom: 20px;
+  margin-left: auto;
+}
+.slider-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.slider-controls button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  margin-right: 50px;
+  cursor: pointer;
+  color: black;
+}
+
+.slider-controls button:hover {
+  color: grey;
+}
+
+.product-card {
+  flex-basis: calc(10% - 40px);
+  flex-grow: 1;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card img {
+  max-width: 200px;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  margin: auto;
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+}
+
+.product-card .price {
+  font-weight: bold;
+  color: black;
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+}
+
+.product-description {
+  margin: 5px 0;
+  max-height: 3.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  color: grey;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+.products-head {
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  margin-bottom: 0;
+}
+.head img {
+  width: 50%;
+}
+
+.main-container {
+  margin-top: 80px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
